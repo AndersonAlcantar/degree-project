@@ -1,0 +1,9 @@
+
+
+usuarioceideul
+jGwNAfp#t3bEGQgZ5
+
+ cd C:\xampp\mysql\bin
+mysql -u root -p -h localhost
+CREATE USER 'usuarioceideul'@'localhost' IDENTIFIED BY 'jGwNAfp#t3bEGQgZ5';
+GRANT ALL PRIVILEGES ON ceideul.* TO 'usuarioceideul'@'localhost';
